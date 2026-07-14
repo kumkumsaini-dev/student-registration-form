@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Registration form</title>
+</head>
+
+<body>
+    <div class="xyz">
+        <img src="../images/ignou.logo.jpg" alt="IGNOU" width="200"><br>
+        <a href="https://www.ignou.ac.in/" target="_blank">redirect to official website</a>
+        <h1> <u>IGNOU Student Registration Form</u></h1><br>
+    </div>
+    <form>
+        <h3>Personal Details</h3>
+        <label for="firstname">First Name <br>
+            <input type="text" name="firstname" id="firstname">
+        </label>
+        <br><br>
+
+        <label for="lastname">Last Name <br>
+            <input type="text" name="lastname" id="lastname">
+        </label>
+        <br><br>
+
+        <label for="dob">Date of Birth <br>
+            <input type="date" name="dob" id="dob">
+        </label>
+        <br><br>
+
+        <label for="male">Gender <br><br>
+            <input type="radio" name="gender" id="male">Male
+        </label>
+
+        <label for="female">
+            <input type="radio" name="gender" id="female">Female
+        </label><br><br>
+
+        <label for="email">Email <br>
+            <input type="email" name="email" id="email">
+        </label>
+        <br><br>
+
+        <label for="mobile">Mobile Number <br>
+            <input type="tel" name="mobilenumber" id="mobile" maxlength="10">
+        </label>
+        <br><br>
+
+        <label for="emmobile">Emergency Contact Number <br>
+            <input type="tel" name="mobilenumber" id="emmobile" maxlength="10">
+        </label>
+        <br><br>
+
+        <label for="address">Address <br>
+            <textarea name="address" id="address" rows="5" cols="20" placeholder="Write your Address..."></textarea>
+        </label>
+        <br><br>
+
+        <label for="city">City <br>
+            <input type="text" name="city" id="city">
+        </label>
+        <br><br>
+
+        <label for="state">State <br>
+            <input type="text" name="state" id="state">
+        </label>
+        <br><br>
+
+        <label for="nationality">Nationality <br>
+            <input type="text" name="nationality" id="nationality">
+        </label><br><br>
+
+        <label for="pin">PIN Code <br>
+            <input type="text" name="pin" id="pin">
+        </label>
+        <br><br>
+
+        <label for="pic">Upload profile picture
+            <input type="file" name="pic" id="pic">
+        </label>
+        <hr>
+
+        <h3>Academic Details</h3> <br>
+        <label for="studentid">Student ID <br>
+            <input type="text" name="studentid" id="studentid">
+        </label>
+        <br><br>
+
+        <label for="course">Course <br>
+            <select name="course" id="course">
+                <option value="" selected disabled>Select Course</option>
+                <option value="BCA">BCA</option>
+                <option value="B.TECH">B.TECH</option>
+                <option value="BSC">BSC</option>
+                <option value="B.COM">B.COM</option>
+                <option value="BA">BA</option>
+            </select>
+        </label><br><br>
+
+        <label for="sem">Semester <br>
+            <select name="sem" id="sem">
+                <option value="" selected disabled>Select</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </label><br><br>
+
+        <label for="college">College <br>
+            <input type="text" name="college" id="college">
+        </label>
+        <br><br>
+
+        <label for="university">University <br>
+            <input type="text" name="university" id="university">
+        </label><br><br>
+
+        <label for="percentage">12th Percentage <br>
+            <input type="number" name="percentage" id="percentage" min="0" max="100" step="0.01">
+        </label>
+        <br><br>
+
+        <label for="passingyear">Passing year <br>
+            <input type="number" name="passing year" id="passingyear">
+        </label><br><br>
+        <hr>
+        <h3>Skills</h3>
+        <label for="html">
+            <input type="checkbox" name="skills" id="html">HTML
+        </label><br>
+        <label for="css">
+            <input type="checkbox" name="skills" id="css">CSS
+        </label><br>
+        <label for="javascript">
+            <input type="checkbox" name="skills" id="javascript">Javascript
+        </label><br>
+        <label for="python">
+            <input type="checkbox" name="skills" id="python">Python
+        </label><br>
+        <label for="c">
+            <input type="checkbox" name="skills" id="c">C
+        </label><br>
+        <label for="cpp">
+            <input type="checkbox" name="skills" id="cpp">C++
+        </label><br>
+        <label for="java">
+            <input type="checkbox" name="skills" id="java">Java
+        </label><br><br>
+        <hr>
+
+        <h3>Account Details</h3>
+        <label for="username">Username <br>
+            <input type="text" name="username" id="username">
+        </label><br><br>
+
+        <label for="password">Password <br>
+            <input type="password" name="password" id="password">
+        </label><br><br>
+
+        <label for="confirmPassword">Confirm Password <br>
+            <input type="password" name="confirmPassword" id="confirmPassword">
+        </label><br><br>
+
+        <hr>
+        <h3>Additional Information</h3>
+        <label for="about">
+            <textarea name="about" id="about" rows="5" cols="25" placeholder="Write About Yourself..."></textarea>
+        </label><br><br>
+
+        <hr>
+        <h3>Declaration</h3>
+        <label for="declare">
+            <input type="checkbox" name="declare" id="declare"
+                value="I confirm that all the information provided is correct.">I confirm that all the information
+            provided is correct.
+        </label><br><br>
+
+        <input type="submit" name="register" id="register" value="Submit">
+        <input type="reset" name="reset" id="reset" value="Reset">
+
+        <a href="https://www.ignou.ac.in/faq/0?nav=64" target="_blank">click here for FAQ
+            <img src="../images/FAQ.jpg"
+                alt="FAQ" width="200">
+
+        </a>
+    </form>
+</body>
+
+</html>
