@@ -6,12 +6,6 @@ This project helped me strengthen my understanding of HTML forms, CSS styling, l
 
 ---
 
-## 🚀 Live Preview
-
-*(Add your GitHub Pages link here later if you host the project.)*
-
----
-
 ## 📸 Project Screenshots
 
 ### 1. Home Page
