@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Student Registration form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <img src="images/ignou.logo.jpg" alt="IGNOU" width="200" /><br />
+    <h1>IGNOU Student Registration Form</h1><br />
+    <a href="https://www.ignou.ac.in/" target="_blank">redirect to official website</a>
+  </header>
+
+  <div class="card">
+    <form>
+      <h3>Personal Details</h3>
+      <div class="row">
+        <label for="firstname">First Name-
+          <input type="text" name="firstname" id="firstname " placeholder="Enter" />
+        </label>
+
+        <label for="lastname">Last Name-
+          <input type="text" name="lastname" id="lastname" placeholder="Enter" />
+        </label>
+      </div>
+      <br /><br />
+
+      <div class="row">
+        <label for="gender">Gender
+        <select name="gender" id="gender" >Gender
+          <option value="" selected disabled>select</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="third gender">Third Gender</option>
+        </select>
+        </label>
+      
+        <label for="dob">Date of Birth
+          <input type="date" name="dob" id="dob" />
+        </label>
+        <label for="email">Email
+          <input type="email" name="email" id="email" placeholder="@gmail.com" />
+        </label>
+      </div>
+      <br /><br />
+
+      <div class="row">
+        <label for="mobile">Mobile Number
+          <input type="tel" name="mobilenumber" id="mobile" maxlength="10" placeholder="10-digit" />
+        </label><br><br>
+        <label for="emmobile">Emergency Contact Number
+          <input type="tel" name="mobilenumber" id="emmobile" maxlength="10" placeholder="10-digit" />
+        </label>
+      </div>
+      <br /><br />
+
+      <div class="row">
+        <label for="city">City
+          <input type="text" name="city" id="city" placeholder="your city" />
+        </label>
+        <label for="pin">PIN Code
+          <input type="text" name="pin" id="pin" placeholder="XXXXXX" />
+        </label>
+      </div>
+      <br /><br />
+      
+      <div class="row">
+        <label for="state">State
+          <input type="text" name="state" id="state" placeholder="State" />
+        </label>
+        <label for="nationality">Nationality
+          <input type="text" name="nationality" id="nationality" placeholder="country" />
+        </label>
+      </div>
+      <br /><br />
+      
+      <label for="address">Address <br />
+        <textarea name="address" id="address" rows="5" cols="20" placeholder="Write your Address..."></textarea>
+      </label>
+      <br /><br />
+
+      <label for="pic">Upload profile picture
+        <input type="file" name="pic" id="pic" />
+      </label>
+      
+
+      <h3>Academic Details</h3>
+      <br />
+      <div class="row">
+        <label for="studentid">Student ID
+          <input type="text" name="studentid" id="studentid" placeholder="Id number" />
+        </label>
+
+        <label for="course">Course
+          <select name="course" id="course">
+            <option value="" selected disabled>Select Course</option>
+            <option value="BCA">BCA</option>
+            <option value="B.TECH">B.TECH</option>
+            <option value="BSC">BSC</option>
+            <option value="B.COM">B.COM</option>
+            <option value="BA">BA</option>
+          </select>
+        </label>
+      </div>
+      <br /><br />
+
+      <div class="row">
+
+        <label for="college">College
+          <input type="text" name="college" id="college" placeholder="Name" />
+        </label>
+
+        <label for="university">University
+          <input type="text" name="university" id="university" placeholder="Ex.DU" />
+        </label>
+      </div><br><br>
+
+      <div class="row">
+        <label for="sem">Semester
+          <select name="sem" id="sem">
+            <option value="" selected disabled>Select</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </label>
+
+        <label for="percentage">12th Percentage
+          <input type="number" name="percentage" id="percentage" min="0" max="100" step="0.01" placeholder="in %" />
+        </label>
+
+        <label for="passingyear">Passing year
+          <input type="number" name="passing year" id="passingyear" min="2000" max="2026" /> </label><br /><br />
+
+      </div>
+
+      <h3>Skills</h3>
+      <table align ="center">
+        <tr>
+          <td><input type="checkbox" name="skills" id="html"></td>
+          <td><label for="html">HTML</label></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" id="css"></td>
+          <td><label for="css">CSS</label></td>
+        </tr>
+
+        <tr>
+          <td><input type="checkbox" id="javascript"></td>
+          <td><label for="javascript">JavaScript</label></td>
+        </tr>
+
+        <tr>
+          <td><input type="checkbox" id="python"></td>
+          <td><label for="python">Python</label></td>
+        </tr>
+
+        <tr>
+          <td><input type="checkbox" id="c"></td>
+          <td><label for="c">C</label></td>
+        </tr>
+
+        <tr>
+          <td><input type="checkbox" id="cpp"></td>
+          <td><label for="cpp">C++</label></td>
+        </tr>
+
+        <tr>
+          <td><input type="checkbox" id="java"></td>
+          <td><label for="java">Java</label></td>
+        </tr>
+      </table>
+
+      <h3>Account Details</h3>
+      <div class="row">
+      <label for="username">Username <br />
+        <input type="text" name="username" id="username" /> </label>
+
+      <label for="password">Password <br />
+        <input type="password" name="password" id="password" /> </label>
+
+      <label for="confirmPassword">Confirm Password <br />
+        <input type="password" name="confirmPassword" id="confirmPassword" /> </label>
+        </div>
+      <h3>Additional Information</h3>
+      <label for="about">
+        <textarea name="about" id="about" rows="5" cols="25"
+          placeholder="Write About Yourself..."></textarea></label><br /><br />
+
+
+      <h3>Declaration</h3>
+      <label for="declare">
+        <input type="checkbox" name="declare" id="declare"
+          value="I confirm that all the information provided is correct." />I confirm that all the information provided
+        is
+        correct. </label><br /><br />
+
+
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+      <br /><br />
+
+      <a href="https://www.ignou.ac.in/faq/0?nav=64" target="_blank">click here or click image for FAQ(Frequently
+          Asked Questions)<br><br>
+          <img src="images/FAQ.jpg" alt="FAQ" width="100" />
+      </a>
+      
+    </form>
+  </div>
+  <footer>
+    <hr>
+
+    <p>© 2026 IGNOU Student Registration Form</p>
+
+    <p>Designed & Developed by <strong>Kumkum Saini</strong></p>
+
+    <p>Learning HTML & CSS | Full Stack Web Development Journey 🚀</p>
+    <label >Contact-
+    <a href="https://www.linkedin.com/in/kumkum-saini-2849a8412/" target="_blank">@linkedin</a>
+    <a href="https://github.com/kumkumsaini-dev" target="_blank">@github</a>
+    </label>
+</footer>
+</body>
+
+</html>
