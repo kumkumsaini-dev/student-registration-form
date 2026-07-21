@@ -20,10 +20,10 @@ This project helped me strengthen my understanding of HTML forms, CSS styling, l
 ### 2. Personal Details Section
 ![Personal Details](screenshots/2-personal-details.png)
 
-### 3. Academic Details Section
+### 3. Academic Details and Skills Section
 ![Academic Details](screenshots/3-academic-skills.png)
 
-### 4. Skills & Account Details
+### 4. Account Details and declaration
 ![Skills](screenshots/4-details-declaration.png)
 
 ### 5. Footer
