@@ -1,25 +1,35 @@
-# Student Registration Form
+# IGNOU Student Registration Form
 
-This is my first HTML project created as part of my Frontend Web Development learning journey.
+A responsive student registration form created as part of my Full Stack Web Development learning journey.
 
 ## Features
 
-- Student Registration Form
-- Personal Details
-- Academic Details
-- Skills Section
-- Account Details
-- Declaration
-- Submit & Reset Buttons
+- Student registration form
+- Clean and organized layout
+- HTML5 semantic structure
+- CSS styling
+- Responsive design using Media Queries
+- Hover effects on buttons
+- Focus effects on form fields
 
 ## Technologies Used
 
 - HTML5
+- CSS3
 
-## Next Goal
+## Project Structure
 
-- Add CSS styling
-- Make it responsive
-- Improve UI
+```
+student-registration-form/
+│
+├── index.html
+├── style.css
+├── images/
+└── README.md
+```
 
-Created by **Kumkum Saini**
+## About This Project
+
+This project was built to practice HTML and CSS fundamentals. It helped me understand form creation, CSS styling, layout, spacing, hover effects, focus states, and responsive design.
+
+Designed & Developed by **Kumkum Saini**
