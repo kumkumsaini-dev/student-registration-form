@@ -15,19 +15,19 @@ This project helped me strengthen my understanding of HTML forms, CSS styling, l
 ## 📸 Project Screenshots
 
 ### 1. Home Page
-![Home Page](1-home-page.png)
+![Home Page](screenshots/1-home-page.png)
 
 ### 2. Personal Details Section
-![Personal Details](2-personal-details.png)
+![Personal Details](screenshots/2-personal-details.png)
 
 ### 3. Academic Details Section
-![Academic Details](3-academic-skills.png)
+![Academic Details](screenshots/3-academic-skills.png)
 
 ### 4. Skills & Account Details
-![Skills](4-details-declaration.png)
+![Skills](screenshots/4-details-declaration.png)
 
 ### 5. Footer
-![Footer](5-footer.png)
+![Footer](screenshots/5-footer.png)
 
 ---
 
